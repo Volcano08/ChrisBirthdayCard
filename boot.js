@@ -1,0 +1,1 @@
+(function(){var c=document.documentElement.classList;c.add('js','pre');function fail(){c.remove('pre','lock');}window.addEventListener('error',fail);setTimeout(function(){var i=document.getElementById('intro');if(!i||i.hidden&&!c.contains('party'))fail();},4000);})();
